@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Andre Reparaciones y Reformas. Albañilería, reformas, baños, cocinas y reparaciones en Navarra y alrededores.">
+<title>Andre Reparaciones y Reformas | Tu hogar, en buenas manos</title>
+<style>
+:root{--orange:#ff8500;--orange2:#ffab22;--dark:#111518;--dark2:#1b2226;--text:#20262a;--muted:#687278;--bg:#f7f7f5;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.55;background:#fff}
+a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
+.top{background:#090c0e;color:#d9dddf;font-size:13px}.top .wrap{height:36px;display:flex;justify-content:space-between;align-items:center}.top b{color:var(--orange2)}
+header{position:sticky;top:0;z-index:100;background:rgba(17,21,24,.97);box-shadow:0 3px 20px #0002}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px;color:white;font-weight:900}.logo-icon{width:49px;height:49px;position:relative}.roof{position:absolute;width:35px;height:35px;border-left:7px solid var(--orange);border-top:7px solid var(--orange);transform:rotate(45deg);left:6px;top:8px}.house{position:absolute;background:var(--orange);width:27px;height:21px;left:11px;top:25px}.door{position:absolute;background:var(--dark);width:7px;height:13px;left:21px;top:33px}.brand{font-size:25px;line-height:1}.brand small{display:block;font-size:10px;color:var(--orange);letter-spacing:.6px;margin-top:4px}
+nav{display:flex;gap:28px;align-items:center;color:#eee;font-weight:700;font-size:14px}nav a:hover{color:var(--orange)}.nav-cta{padding:10px 16px;border:1px solid var(--orange);border-radius:8px;color:var(--orange)!important}
+.menu{display:none;background:none;border:0;color:white;font-size:27px}
+
+.hero{min-height:650px;color:#fff;display:flex;align-items:center;background:linear-gradient(90deg,#090d10f5 0%,#090d10d9 45%,#090d1060 100%),url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=85") center/cover}
+.hero-inner{padding:80px 0;max-width:730px}.eyebrow{color:var(--orange);font-weight:900;text-transform:uppercase;letter-spacing:2px;font-size:13px}.hero h1{font-size:clamp(44px,6vw,76px);line-height:.98;margin:14px 0 20px}.hero h1 span{color:var(--orange)}.slogan{font-family:Georgia,serif;font-style:italic;font-size:25px;color:#fff;margin-bottom:18px}.hero p{font-size:18px;color:#d9dddf;max-width:650px;margin-bottom:30px}.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 21px;border-radius:8px;font-weight:800;display:inline-block;border:2px solid transparent}.orange{background:var(--orange);color:#111}.orange:hover{background:var(--orange2)}.outline{border-color:var(--orange);color:white}.outline:hover{background:var(--orange);color:#111}.hero-points{display:flex;gap:25px;flex-wrap:wrap;margin-top:32px;padding-top:22px;border-top:1px solid #fff3}.hero-points b{display:block}.hero-points span{font-size:12px;color:#bac1c4}
+
+.services-strip{background:white;box-shadow:0 4px 20px #0001}.service-strip{display:grid;grid-template-columns:1.1fr repeat(5,1fr)}.service-strip>div{padding:27px 16px;border-right:1px solid #ddd;text-align:center}.service-strip>div:first-child{text-align:left;border:0}.service-strip h2{font-size:22px}.service-strip .big{font-size:35px;color:var(--orange);margin-bottom:3px}.service-strip h3{font-size:14px}.service-strip p{font-size:12px;color:var(--muted)}
+
+section{padding:85px 0}.tag{font-size:12px;text-transform:uppercase;letter-spacing:1.7px;font-weight:900;color:var(--orange)}h2{font-size:clamp(30px,4vw,44px);line-height:1.08;margin:7px 0 15px;color:var(--dark)}.lead{color:var(--muted);max-width:690px}.center{text-align:center}.center .lead{margin:auto}
+
+.about{background:var(--dark);color:white}.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;align-items:stretch}.about-img{min-height:430px;background:url("https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1000&q=85") center/cover}.about-copy{padding:50px 55px}.about h2{color:white}.about-copy p{color:#bfc6c9}.checks{display:grid;gap:14px;margin-top:24px}.check{display:flex;gap:12px}.check i{color:var(--orange);font-style:normal;font-weight:900}.check b{display:block}.check span{font-size:13px;color:#9ea8ad}
+
+.gallery{background:#fff}.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:38px}.pic{height:250px;background-size:cover;background-position:center;border-radius:4px;position:relative;overflow:hidden}.pic:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,#000b)}.pic div{position:absolute;z-index:2;bottom:15px;left:17px;color:white;font-weight:800}.p1{background-image:url("https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=700&q=85")}.p2{background-image:url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=85")}.p3{background-image:url("https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?auto=format&fit=crop&w=700&q=85")}.p4{background-image:url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=85")}
+
+.process{background:#11171a;color:#fff}.process h2{color:#fff}.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:42px}.step{position:relative;text-align:center;padding:10px}.step:not(:last-child):after{content:"›";position:absolute;right:-12px;top:18px;color:var(--orange);font-size:34px}.num{width:52px;height:52px;border:2px solid var(--orange);color:var(--orange);border-radius:50%;display:grid;place-items:center;margin:auto auto 15px;font-weight:900}.step h3{font-size:16px;margin-bottom:5px}.step p{font-size:13px;color:#aab3b7}
+
+.contact{background:var(--bg)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px;margin-top:40px}.contact-info{background:#171d20;color:white;padding:38px;border-radius:8px}.contact-info h3{font-size:25px}.contact-info>p{color:#aeb7bb;margin:8px 0 20px}.contact-line{display:flex;gap:13px;padding:16px 0;border-top:1px solid #ffffff1a}.contact-line strong{display:block}.contact-line span{color:#aeb7bb;font-size:13px}.contact-line a:hover{color:var(--orange)}.formbox{background:white;padding:38px;border-radius:8px}.formbox h3{font-size:25px}.form{display:grid;gap:13px;margin-top:18px}.row{display:grid;grid-template-columns:1fr 1fr;gap:13px}label{font-size:12px;font-weight:800}input,textarea{width:100%;padding:13px;margin-top:5px;border:1px solid #d8dddf;border-radius:6px;font:inherit;outline:0}input:focus,textarea:focus{border-color:var(--orange)}textarea{min-height:120px;resize:vertical}.form small{font-size:11px;color:#858d91}
+
+footer{background:#0b0e10;color:#9da6aa;padding:27px 0}.footer{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer strong{color:white}.footer a:hover{color:var(--orange)}.whatsapp{position:fixed;right:20px;bottom:20px;width:58px;height:58px;background:#20d66b;border-radius:50%;display:grid;place-items:center;color:white;font-size:25px;z-index:200;box-shadow:0 10px 25px #0004}
+
+@media(max-width:900px){.service-strip{grid-template-columns:repeat(3,1fr)}.service-strip>div:first-child{grid-column:1/-1;text-align:center}.about-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr}.step:nth-child(2):after{display:none}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.top{display:none}.nav{height:70px}nav{display:none;position:absolute;top:70px;left:0;right:0;background:#111518;padding:18px 5%;flex-direction:column;align-items:stretch}.menu{display:block}.nav.open nav{display:flex}.brand{font-size:21px}.hero{min-height:680px}.hero-inner{padding:65px 0}.hero h1{font-size:48px}.service-strip{grid-template-columns:1fr 1fr}.service-strip>div:first-child{grid-column:1/-1}.about-copy{padding:40px 7%}.gallery-grid,.process-grid,.row{grid-template-columns:1fr}.pic{height:260px}.step:not(:last-child):after{display:none}.footer{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="wrap"><span>Albañilería · Reparaciones · Reformas</span><b>📍 Navarra y alrededores</b></div></div>
+
+<header>
+<div class="wrap nav">
+<a class="logo" href="#">
+  <span class="logo-icon"><i class="roof"></i><i class="house"></i><i class="door"></i></span>
+  <span class="brand">ANDRE<small>REPARACIONES Y REFORMAS</small></span>
+</a>
+<button class="menu" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+<nav>
+<a href="#servicios">Servicios</a><a href="#nosotros">Sobre nosotros</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a>
+<a class="nav-cta" href="https://wa.me/34631206738" target="_blank">WhatsApp</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="wrap"><div class="hero-inner">
+<div class="eyebrow">Albañilería y reformas de confianza</div>
+<h1>Reformas, reparaciones<br>y <span>acabados profesionales.</span></h1>
+<div class="slogan">“Tu hogar, en buenas manos”</div>
+<p>Soluciones de albañilería, reformas y reparaciones para viviendas y locales en Navarra y alrededores. Calidad, compromiso y atención cercana.</p>
+<div class="buttons">
+<a class="btn orange" href="https://wa.me/34631206738" target="_blank">💬 Contactar por WhatsApp</a>
+<a class="btn outline" href="tel:+34631206738">☎ 631 206 738</a>
+</div>
+<div class="hero-points"><div><b>✓ Presupuesto</b><span>Sin compromiso</span></div><div><b>✓ Trato cercano</b><span>Atención personalizada</span></div><div><b>✓ Navarra</b><span>Y alrededores</span></div></div>
+</div></div>
+</section>
+
+<div class="services-strip" id="servicios"><div class="wrap service-strip">
+<div><div class="tag">Nuestros servicios</div><h2>Soluciones para tu espacio</h2></div>
+<div><div class="big">▦</div><h3>Albañilería</h3><p>Obra nueva y reparaciones.</p></div>
+<div><div class="big">⚒</div><h3>Reformas</h3><p>Viviendas y locales.</p></div>
+<div><div class="big">♨</div><h3>Baños</h3><p>Diseño y acabados.</p></div>
+<div><div class="big">⌂</div><h3>Cocinas</h3><p>Funcionalidad y estilo.</p></div>
+<div><div class="big">▣</div><h3>Reparaciones</h3><p>Soluciones rápidas.</p></div>
+</div></div>
+
+<section class="about" id="nosotros"><div class="wrap about-grid">
+<div class="about-img"></div><div class="about-copy"><div class="tag">Sobre nosotros</div><h2>Andre Reparaciones y Reformas</h2>
+<p>Nos dedicamos a ofrecer soluciones a medida para viviendas y locales, con un trato cercano y un compromiso total con cada proyecto.</p>
+<p>Trabajamos cuidando cada detalle para que el resultado sea funcional, resistente y esté a la altura de lo que esperas.</p>
+<div class="checks">
+<div class="check"><i>✓</i><div><b>Seriedad y compromiso</b><span>Nos implicamos en cada trabajo.</span></div></div>
+<div class="check"><i>✓</i><div><b>Calidad en los acabados</b><span>Cuidamos los detalles.</span></div></div>
+<div class="check"><i>✓</i><div><b>Trato cercano</b><span>Atención personalizada.</span></div></div>
+<div class="check"><i>✓</i><div><b>Presupuesto claro</b><span>Sin sorpresas innecesarias.</span></div></div>
+</div></div></div></section>
+
+<section class="gallery" id="galeria"><div class="wrap">
+<div class="center"><div class="tag">Galería de trabajos</div><h2>Algunos de nuestros proyectos</h2><p class="lead">Una muestra visual del tipo de trabajos y acabados que podemos realizar.</p></div>
+<div class="gallery-grid"><div class="pic p1"><div>Reforma de baño</div></div><div class="pic p2"><div>Reforma de cocina</div></div><div class="pic p3"><div>Albañilería exterior</div></div><div class="pic p4"><div>Acabados interiores</div></div></div>
+</div></section>
+
+<section class="process"><div class="wrap center"><div class="tag">Cómo trabajamos</div><h2>Un proceso sencillo y transparente</h2><div class="process-grid">
+<div class="step"><div class="num">1</div><h3>Contactas con nosotros</h3><p>Cuéntanos qué necesitas y te asesoramos.</p></div>
+<div class="step"><div class="num">2</div><h3>Presupuesto</h3><p>Valoramos el trabajo y preparamos una propuesta.</p></div>
+<div class="step"><div class="num">3</div><h3>Realizamos el trabajo</h3><p>Trabajamos con cuidado y materiales adecuados.</p></div>
+<div class="step"><div class="num">4</div><h3>Disfrutas del resultado</h3><p>Tu espacio listo como lo imaginabas.</p></div>
+</div></div></section>
+
+<section class="contact" id="contacto"><div class="wrap">
+<div class="center"><div class="tag">Contacto</div><h2>Pide tu presupuesto</h2><p class="lead">Sin compromiso. Estaremos encantados de ayudarte.</p></div>
+<div class="contact-grid">
+<div class="contact-info"><h3>Hablemos de tu proyecto</h3><p>Contacta directamente con Andre Reparaciones y Reformas.</p>
+<div class="contact-line"><div>☎</div><div><strong>631 206 738</strong><span><a href="tel:+34631206738">Llamar ahora</a></span></div></div>
+<div class="contact-line"><div>✉</div><div><strong>anderbpr94@gmail.com</strong><span><a href="mailto:anderbpr94@gmail.com">Enviar email</a></span></div></div>
+<div class="contact-line"><div>📍</div><div><strong>Navarra y alrededores</strong><span>Zona de trabajo</span></div></div>
+<div class="contact-line"><div>💬</div><div><strong>WhatsApp</strong><span><a href="https://wa.me/34631206738" target="_blank">Escribir un mensaje</a></span></div></div>
+</div>
+<div class="formbox"><h3>Cuéntanos qué necesitas</h3><form class="form" onsubmit="sendMail(event)">
+<div class="row"><label>Nombre<input name="nombre" required placeholder="Tu nombre"></label><label>Teléfono<input name="telefono" required type="tel" placeholder="631..."></label></div>
+<label>Email<input name="email" required type="email" placeholder="tu@email.com"></label>
+<label>Mensaje<textarea name="mensaje" required placeholder="Cuéntanos brevemente qué trabajo necesitas..."></textarea></label>
+<button class="btn orange" type="submit">Enviar mensaje →</button><small>Se abrirá tu aplicación de correo con el mensaje preparado.</small>
+</form></div>
+</div></div></section>
+
+<footer><div class="wrap footer"><div>© <span id="year"></span> <strong>ANDRE Reparaciones y Reformas</strong> · <em>Tu hogar, en buenas manos</em></div><div>631 206 738 · anderbpr94@gmail.com</div></div></footer>
+<a class="whatsapp" href="https://wa.me/34631206738" target="_blank" aria-label="WhatsApp">◉</a>
+
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+function sendMail(e){e.preventDefault();let f=e.target;let s=encodeURIComponent('Solicitud de presupuesto - Andre Reparaciones y Reformas');let b=encodeURIComponent('Hola, soy '+f.nombre.value+'.\n\nTeléfono: '+f.telefono.value+'\nEmail: '+f.email.value+'\n\nNecesito:\n'+f.mensaje.value);location.href='mailto:anderbpr94@gmail.com?subject='+s+'&body='+b}
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.nav').classList.remove('open')));
+</script>
+</body>
+</html>
